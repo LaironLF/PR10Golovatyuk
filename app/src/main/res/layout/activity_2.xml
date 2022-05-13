@@ -51,8 +51,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/image10_e14591957091_1"
-            />
+            android:src="@drawable/image10_e14591957091_1" />
 
     </LinearLayout>
 
@@ -161,11 +160,12 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:gravity="right">
+                        android:gravity="center">
 
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
+                            android:layout_marginLeft="13dp"
                             android:gravity="center">
 
                             <TextView
@@ -174,8 +174,18 @@
                                 android:text="краткая информация"
                                 android:textAlignment="center"
                                 android:textColor="#079459"
-                                android:textSize="26dp"
+                                android:textSize="24dp"
                                 android:textStyle="bold" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/strowdown"/>
                         </LinearLayout>
                     </LinearLayout>
 

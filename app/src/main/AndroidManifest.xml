@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PR10Golovatyuk">
         <activity
+            android:name=".activity_3"
+            android:exported="false" />
+        <activity
             android:name=".activity_2"
             android:exported="false" />
         <activity
